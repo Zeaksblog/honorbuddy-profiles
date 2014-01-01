@@ -1,0 +1,76 @@
+<HBProfile creator="Zeaks" version="1.0">
+
+    <Name>Zeaks Island Skinner - Grind 87-90</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>200</MaxLevel>
+	
+		<TargetMinLevel>85</TargetMinLevel>
+		<TargetMaxLevel>91</TargetMaxLevel>
+
+		<MinDurability>0.4</MinDurability>
+		<MinFreeBagSlots>30</MinFreeBagSlots>
+<!-- Change here what to mail and sell-->
+		<MailGrey>false</MailGrey>
+		<MailWhite>false</MailWhite>
+		<MailGreen>false</MailGreen>
+		<MailBlue>true</MailBlue>
+		<MailPurple>true</MailPurple>
+
+		<SellGrey>true</SellGrey>
+		<SellWhite>false</SellWhite>
+		<SellGreen>true</SellGreen>
+		<SellBlue>false</SellBlue>
+		<SellPurple>false</SellPurple>
+
+	<Vendors>
+		<Vendor Name="Nip Nip" Entry="64324" Type="Repair" X="2705.861" Y="-2408.174" Z="4.67567" />
+	</Vendors>
+
+	<Mailboxes>
+		<Mailbox X="2546.707" Y="-2432.235" Z="24.14367" /> 
+	</Mailboxes>
+
+
+	<GrindArea>
+		<Factions>203 215</Factions>
+		<!-- Add mobs to avoid here -->
+		<AvoidMobs></AvoidMobs> 
+		<LootRadius>10</LootRadius>
+		<MaxDistance>40</MaxDistance>
+   
+        <Hotspots>
+<Hotspot X="2684.987" Y="-2929.418" Z="5.276215" />
+<Hotspot X="2684.659" Y="-2918.692" Z="4.044575" />
+<Hotspot X="2678.9" Y="-2888.791" Z="3.485958" />
+<Hotspot X="2675.938" Y="-2873.212" Z="5.621306" />
+<Hotspot X="2654.081" Y="-2871.329" Z="4.340187" />
+<Hotspot X="2624.174" Y="-2864.173" Z="6.398931" />
+<Hotspot X="2593.32" Y="-2864.154" Z="3.780335" />
+<Hotspot X="2563.87" Y="-2872.282" Z="5.186296" />
+<Hotspot X="2534.357" Y="-2878.163" Z="3.822657" />
+<Hotspot X="2510.052" Y="-2859.616" Z="7.118942" />
+<Hotspot X="2489.904" Y="-2836.324" Z="3.757615" />
+<Hotspot X="2461.959" Y="-2820.55" Z="1.955805" />
+<Hotspot X="2432.041" Y="-2825.147" Z="5.450967" />
+<Hotspot X="2423.758" Y="-2852.985" Z="4.053422" />
+<Hotspot X="2432.026" Y="-2882.677" Z="6.841235" />
+<Hotspot X="2439.523" Y="-2912.188" Z="8.120059" />
+<Hotspot X="2437.022" Y="-2942.358" Z="9.719323" />
+<Hotspot X="2422.347" Y="-2969.454" Z="11.61819" />
+<Hotspot X="2415.03" Y="-2997.61" Z="11.36918" />
+<Hotspot X="2442.928" Y="-3004.858" Z="12.6382" />
+<Hotspot X="2460.251" Y="-2980.752" Z="15.67916" />
+<Hotspot X="2478.16" Y="-2955.883" Z="7.013176" />
+<Hotspot X="2502.424" Y="-2938.976" Z="6.383656" />
+<Hotspot X="2530.927" Y="-2946.88" Z="6.276354" />
+<Hotspot X="2541.168" Y="-2919.232" Z="5.970862" />
+<Hotspot X="2551.884" Y="-2892.469" Z="5.956561" />
+<Hotspot X="2578.74" Y="-2878.665" Z="5.57248" />
+<Hotspot X="2609.016" Y="-2872.824" Z="6.206521" />
+<Hotspot X="2639.804" Y="-2872.453" Z="3.605546" />
+<Hotspot X="2667.403" Y="-2883.685" Z="4.958927" />
+<Hotspot X="2684.302" Y="-2901.139" Z="4.628783" />
+        </Hotspots>
+    </GrindArea>
+   
+</HBProfile> <!-- closing context -->

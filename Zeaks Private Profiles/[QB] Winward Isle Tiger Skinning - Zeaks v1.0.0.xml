@@ -1,0 +1,134 @@
+<HBProfile>
+	<!-- 
+Needed a skinning profile that farmed an area that not many people visited. This uses a small loop on Winward isle. Not many greens or motes, but a fair amount of Exotic Leather quickly.
+
+This profile will grind the Tiger mobs on Winward Isle off Jade Forest.
+Mainly for Skyshards, got mine in 2 nights and a day. Should also get lots of greens, cloth, motes of harmony, BOE blues and even 476 BOE Epics.
+
+Use QuestBuddy for this profile not Grindbot. Start it anywhere in Pandaria
+
+
+[*]		 rev 01 Switched to Questbuddy profile to make it easier to visit venders.
+
+
+Let me know of any problems,
+
+ -->
+	<Name>QB Winward Isle Exotic Leather - Zeaks</Name> 
+
+	<MinLevel>85</MinLevel> 
+	<MaxLevel>91</MaxLevel> 
+
+	<TargetElites>False</TargetElites>
+
+	<MinDurability>0.1</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+	<!-- Change this to keep, sell or mail --> 
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+
+	<MailWhite>True</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+
+<!-- Add protected items to this list -->
+	<ProtectedItems>
+		<Item Name="Hearthstone" Entry="6948" />
+		<Item Name="Skyshard" Entry="86547" />
+		<Item Name="Exotic Leather" Entry="72120" />
+		<Item Name="Mote of Harmony" Entry="89112" />
+		<Item Name="Windwool Cloth" Entry="72988" />
+		<Item Name="Ghost Iron Lockbox" Entry="88567" />
+	</ProtectedItems>
+
+	<AvoidMobs>
+		<!--<Mob Name="Thundermaw" Entry="58456" />-->
+	</AvoidMobs>
+
+	<Mailboxes>
+		<Mailbox X="2546.707" Y="-2432.235" Z="24.14367" /> 
+	</Mailboxes>
+
+	<Vendors> 
+		<Vendor Name="Nip Nip" Entry="64324" Type="Repair" X="2705.861" Y="-2408.174" Z="4.67567" />		
+	</Vendors>
+
+	<QuestOrder>
+
+		<While Condition="true" >
+
+			<If Condition="(Me.FreeBagSlots &gt; 4) || (Me.LowestDurabilityPercent &gt; 20.0)" >
+				<CustomBehavior File="FlyTo" X="2682.364" Y="-2929.575" Z="5.707175"  DestName="Profile Start" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="UserSettings" LootMobs="True" UseFlightPaths="True" PullDistance="40" GroundMountFarmingMode="False" KillBetweenHotspots="True" />
+
+				<SetGrindArea>
+					<GrindArea>
+						<TargetMinLevel>85</TargetMinLevel>
+						<TargetMaxLevel>90</TargetMaxLevel>
+						<Factions>63537 65635 </Factions>
+						<LootRadius>30</LootRadius>
+
+						<!-- New Route for 1.0.4 Less jerky hopefully -->
+						<Hotspots>
+				<Hotspot X="2684.987" Y="-2929.418" Z="5.276215" />
+				<Hotspot X="2684.659" Y="-2918.692" Z="4.044575" />
+				<Hotspot X="2678.9" Y="-2888.791" Z="3.485958" />
+				<Hotspot X="2675.938" Y="-2873.212" Z="5.621306" />
+				<Hotspot X="2654.081" Y="-2871.329" Z="4.340187" />
+				<Hotspot X="2624.174" Y="-2864.173" Z="6.398931" />
+				<Hotspot X="2593.32" Y="-2864.154" Z="3.780335" />
+				<Hotspot X="2563.87" Y="-2872.282" Z="5.186296" />
+				<Hotspot X="2534.357" Y="-2878.163" Z="3.822657" />
+				<Hotspot X="2510.052" Y="-2859.616" Z="7.118942" />
+				<Hotspot X="2489.904" Y="-2836.324" Z="3.757615" />
+				<Hotspot X="2461.959" Y="-2820.55" Z="1.955805" />
+				<Hotspot X="2432.041" Y="-2825.147" Z="5.450967" />
+				<Hotspot X="2423.758" Y="-2852.985" Z="4.053422" />
+				<Hotspot X="2432.026" Y="-2882.677" Z="6.841235" />
+				<Hotspot X="2439.523" Y="-2912.188" Z="8.120059" />
+				<Hotspot X="2437.022" Y="-2942.358" Z="9.719323" />
+				<Hotspot X="2422.347" Y="-2969.454" Z="11.61819" />
+				<Hotspot X="2415.03" Y="-2997.61" Z="11.36918" />
+				<Hotspot X="2442.928" Y="-3004.858" Z="12.6382" />
+				<Hotspot X="2460.251" Y="-2980.752" Z="15.67916" />
+				<Hotspot X="2478.16" Y="-2955.883" Z="7.013176" />
+				<Hotspot X="2502.424" Y="-2938.976" Z="6.383656" />
+				<Hotspot X="2530.927" Y="-2946.88" Z="6.276354" />
+				<Hotspot X="2541.168" Y="-2919.232" Z="5.970862" />
+				<Hotspot X="2551.884" Y="-2892.469" Z="5.956561" />
+				<Hotspot X="2578.74" Y="-2878.665" Z="5.57248" />
+				<Hotspot X="2609.016" Y="-2872.824" Z="6.206521" />
+				<Hotspot X="2639.804" Y="-2872.453" Z="3.605546" />
+				<Hotspot X="2667.403" Y="-2883.685" Z="4.958927" />
+				<Hotspot X="2684.302" Y="-2901.139" Z="4.628783" />
+						</Hotspots>
+					</GrindArea>
+				</SetGrindArea>
+				<GrindTo Condition="(Me.FreeBagSlots &lt;= 4) || (Me.LowestDurabilityPercent &lt; 0.20)" GoalText="Farming" />
+			</If>
+
+			<If Condition="(Me.FreeBagSlots &lt;= 4) || (Me.LowestDurabilityPercent &lt;= 20.0)" >
+
+				<CustomBehavior File="Message" Text="Doing a vendor run" LogColor="Red" />
+				<CustomBehavior File="FlyTo" DestName="Repair Run" X="2705.861" Y="-2408.174" Z="4.67567" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="ForceSetVendor" DoMail="True" DoSell="True" DoRepair="True" DoTrain="False" />
+
+			</If>
+
+		</While>
+
+		<!--			xyz first hotspot: -->
+		<CustomBehavior File="FlyTo" X="2682.364" Y="-2929.575" Z="5.707175"  Name="Profile Start" />
+
+		<!--			land at coords for repair -->
+		<CustomBehavior File="FlyTo" X="2705.861" Y="-2408.174" Z="4.67567" Name="Repair Run" />
+		<CustomBehavior File="ForcedDismount" />
+
+	</QuestOrder>
+</HBProfile>

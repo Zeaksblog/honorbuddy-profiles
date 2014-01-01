@@ -1,0 +1,112 @@
+<HBProfile creator="Zeaks" version="1.0">
+
+    <Name>Zeaks Hyena Skinner - Grind 87-90</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>200</MaxLevel>
+	
+		<TargetMinLevel>85</TargetMinLevel>
+		<TargetMaxLevel>91</TargetMaxLevel>
+
+		<MinDurability>0.4</MinDurability>
+		<MinFreeBagSlots>2</MinFreeBagSlots>
+<!-- Change here what to mail and sell-->
+		<MailGrey>false</MailGrey>
+		<MailWhite>false</MailWhite>
+		<MailGreen>false</MailGreen>
+		<MailBlue>true</MailBlue>
+		<MailPurple>true</MailPurple>
+
+		<SellGrey>true</SellGrey>
+		<SellWhite>false</SellWhite>
+		<SellGreen>true</SellGreen>
+		<SellBlue>false</SellBlue>
+		<SellPurple>false</SellPurple>
+
+	<Vendors>
+		<Vendor Name="Ironshaper Peng" Entry="67170" Type="Repair" X="1426.566" Y="2726.703" Z="316.7198" />
+		<Vendor Name="Kim the Quiet" Entry="62875" Type="Food" X="1383.615" Y="2716.502" Z="316.742" />
+	</Vendors>
+
+	<Mailboxes>
+		<Mailbox X="1385.482" Y="2717.914" Z="316.7493"  /> 
+	</Mailboxes>
+
+
+	<GrindArea>
+		<Factions>16</Factions>
+		<!-- Add mobs to avoid here -->
+		<AvoidMobs>14</AvoidMobs> 
+		<LootRadius>10</LootRadius>
+		<MaxDistance>10</MaxDistance>
+
+<Hotspots>
+	<Hotspot X="1832.752" Y="2643.959" Z="320.1465" />
+	<Hotspot X="1847.209" Y="2616.903" Z="331.8179" />
+	<Hotspot X="1858.779" Y="2589.268" Z="340.2025" />
+	<Hotspot X="1853.69" Y="2580.602" Z="342.5984" />
+	<Hotspot X="1847.065" Y="2573.052" Z="345.1942" />
+	<Hotspot X="1835.838" Y="2560.892" Z="348.0614" />
+	<Hotspot X="1829.245" Y="2545.713" Z="351.3742" />
+	<Hotspot X="1824.934" Y="2529.678" Z="355.0167" />
+	<Hotspot X="1820.814" Y="2513.487" Z="357.7953" />
+	<Hotspot X="1821.946" Y="2502.712" Z="359.2395" />
+	<Hotspot X="1830.731" Y="2473.357" Z="364.8404" />
+	<Hotspot X="1850.873" Y="2450.369" Z="372.4415" />
+	<Hotspot X="1880.808" Y="2443.837" Z="382.136" />
+	<Hotspot X="1907.159" Y="2430.599" Z="390.197" />
+	<Hotspot X="1905.496" Y="2401.102" Z="389.0815" />
+	<Hotspot X="1892.575" Y="2373.189" Z="381.6755" />
+	<Hotspot X="1864.654" Y="2368.366" Z="375.7875" />
+	<Hotspot X="1844.229" Y="2362.194" Z="374.4322" />
+	<Hotspot X="1848.693" Y="2352.083" Z="376.63" />
+	<Hotspot X="1865.299" Y="2328.755" Z="378.7505" />
+	<Hotspot X="1845.585" Y="2313.78" Z="379.3865" />
+	<Hotspot X="1837.077" Y="2308.298" Z="380.4746" />
+	<Hotspot X="1809.297" Y="2295.291" Z="384.2586" />
+	<Hotspot X="1788.993" Y="2272.952" Z="387.9724" />
+	<Hotspot X="1788.767" Y="2242.989" Z="389.5814" />
+	<Hotspot X="1809.857" Y="2222.087" Z="391.2078" />
+	<Hotspot X="1817.058" Y="2197.963" Z="391.8849" />
+	<Hotspot X="1804.703" Y="2217.518" Z="390.7495" />
+	<Hotspot X="1774.849" Y="2215.423" Z="385.6408" />
+	<Hotspot X="1744.055" Y="2215.809" Z="379.228" />
+	<Hotspot X="1716.303" Y="2225.198" Z="378.8264" />
+	<Hotspot X="1690.9" Y="2212.529" Z="373.7598" />
+	<Hotspot X="1663.744" Y="2212.467" Z="369.451" />
+	<Hotspot X="1656.205" Y="2219.759" Z="369.23" />
+	<Hotspot X="1657.987" Y="2250.576" Z="365.8284" />
+	<Hotspot X="1643.198" Y="2275.974" Z="358.8579" />
+	<Hotspot X="1614.276" Y="2269.622" Z="354.592" />
+	<Hotspot X="1594.382" Y="2247.302" Z="350.6104" />
+	<Hotspot X="1585.867" Y="2217.719" Z="353.1162" />
+	<Hotspot X="1566.293" Y="2208.608" Z="354.5397" />
+	<Hotspot X="1557.802" Y="2237.621" Z="349.0829" />
+	<Hotspot X="1540.69" Y="2261.243" Z="350.6102" />
+	<Hotspot X="1518.54" Y="2280.997" Z="350.6106" />
+	<Hotspot X="1515.759" Y="2311.098" Z="350.6106" />
+	<Hotspot X="1531.29" Y="2336.689" Z="350.6105" />
+	<Hotspot X="1551.371" Y="2354.03" Z="346.3071" />
+	<Hotspot X="1551.404" Y="2383.775" Z="337.3209" />
+	<Hotspot X="1527.313" Y="2393.088" Z="333.8726" />
+	<Hotspot X="1552.231" Y="2409.772" Z="329.1374" />
+	<Hotspot X="1579.053" Y="2424.101" Z="328.6598" />
+	<Hotspot X="1609.356" Y="2429.662" Z="330.8649" />
+	<Hotspot X="1639.621" Y="2435.258" Z="333.8315" />
+	<Hotspot X="1669.929" Y="2440.17" Z="339.2305" />
+	<Hotspot X="1700.141" Y="2445.742" Z="352.0232" />
+	<Hotspot X="1712.108" Y="2448.144" Z="355.946" />
+	<Hotspot X="1722.906" Y="2446.399" Z="357.7692" />
+	<Hotspot X="1748.168" Y="2429.227" Z="364.0344" />
+	<Hotspot X="1775.952" Y="2421.212" Z="368.5832" />
+	<Hotspot X="1803.998" Y="2433.874" Z="369.68" />
+	<Hotspot X="1826.481" Y="2454" Z="366.825" />
+	<Hotspot X="1824.11" Y="2484.124" Z="362.1331" />
+	<Hotspot X="1821.507" Y="2514.103" Z="357.7035" />
+	<Hotspot X="1826.967" Y="2534.731" Z="353.9497" />
+</Hotspots>
+<!-- Add areas to avoid here -->
+	<Blackspots>
+		<!--<Blackspot X="367.1612" Y="-699.0712" Z="220.4356" Radius="17.2244" Height="14.49007" />-->
+	</Blackspots>
+    </GrindArea>
+</HBProfile>

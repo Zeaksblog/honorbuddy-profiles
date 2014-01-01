@@ -1,0 +1,87 @@
+<HBProfile creator="Zeaks" version="1.0">
+
+    <Name>Zeaks Turtle Skinning 85-90</Name>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>200</MaxLevel>
+	
+		<TargetMinLevel>85</TargetMinLevel>
+		<TargetMaxLevel>91</TargetMaxLevel>
+
+		<MinDurability>0.4</MinDurability>
+		<MinFreeBagSlots>5</MinFreeBagSlots>
+<!-- Change here what to mail and sell-->
+		<MailGrey>false</MailGrey>
+		<MailWhite>false</MailWhite>
+		<MailGreen>false</MailGreen>
+		<MailBlue>true</MailBlue>
+		<MailPurple>true</MailPurple>
+
+		<SellGrey>true</SellGrey>
+		<SellWhite>false</SellWhite>
+		<SellGreen>true</SellGreen>
+		<SellBlue>false</SellBlue>
+		<SellPurple>false</SellPurple>
+
+	<Vendors>
+		<Vendor Name="Claretta" Entry="61215" Type="Repair" X="528.3212" Y="-652.0018" Z="257.0843" />
+	</Vendors>
+
+	<Mailboxes>
+		<Mailbox X="539.7233" Y="-615.7047" Z="258.6593" />
+	</Mailboxes>
+
+
+	<GrindArea>
+		<Factions>190</Factions>
+		<LootRadius>10</LootRadius>
+		<MaxDistance>10</MaxDistance>
+
+<Hotspots>
+<Hotspot X="374.4378" Y="-9.74407" Z="166.1797" />
+<Hotspot X="364.6721" Y="-12.51413" Z="164.7596" />
+<Hotspot X="348.8597" Y="-17.53667" Z="161.6863" />
+<Hotspot X="333.3685" Y="-23.62526" Z="160.6394" />
+<Hotspot X="317.5645" Y="-26.46279" Z="165.5181" />
+<Hotspot X="305.2833" Y="-15.53514" Z="163.7745" />
+<Hotspot X="295.8519" Y="-1.800004" Z="165.0449" />
+<Hotspot X="284.2502" Y="10.16723" Z="165.1293" />
+<Hotspot X="271.9089" Y="21.43987" Z="165.7082" />
+<Hotspot X="258.3641" Y="30.97875" Z="166.0615" />
+<Hotspot X="247.2543" Y="43.40067" Z="162.232" />
+<Hotspot X="236.1501" Y="55.81639" Z="157.5582" />
+<Hotspot X="227.7999" Y="70.05518" Z="152.8678" />
+<Hotspot X="241.3836" Y="77.57093" Z="145.4405" />
+<Hotspot X="247.6589" Y="90.99401" Z="145.9345" />
+<Hotspot X="259.2949" Y="98.52376" Z="146.4329" />
+<Hotspot X="274.5525" Y="92.15866" Z="146.0011" />
+<Hotspot X="286.073" Y="80.12312" Z="145.1613" />
+<Hotspot X="302.1748" Y="77.57661" Z="145.1613" />
+<Hotspot X="315.2846" Y="87.82651" Z="145.1613" />
+<Hotspot X="328.5528" Y="97.3411" Z="145.1613" />
+<Hotspot X="343.9125" Y="91.56653" Z="145.1613" />
+<Hotspot X="352.6563" Y="78.42467" Z="145.1613" />
+<Hotspot X="367.9659" Y="72.21906" Z="148.1166" />
+<Hotspot X="383.8128" Y="67.30196" Z="150.7574" />
+<Hotspot X="390.2015" Y="56.14339" Z="155.022" />
+<Hotspot X="375.3339" Y="49.52787" Z="158.0924" />
+<Hotspot X="360.6923" Y="41.60632" Z="153.4855" />
+<Hotspot X="349.3177" Y="30.47701" Z="152.7826" />
+<Hotspot X="346.7303" Y="14.008" Z="153.2848" />
+<Hotspot X="350.8838" Y="-0.4978752" Z="157.8204" />
+<Hotspot X="364.492" Y="-8.663649" Z="164.3186" />
+<Hotspot X="371.5793" Y="-23.85669" Z="164.3934" />
+<Hotspot X="365.9569" Y="-36.05325" Z="160.9159" />
+<Hotspot X="349.5446" Y="-34.33568" Z="162.9089" />
+<Hotspot X="339.7625" Y="-31.8733" Z="163.6096" />
+</Hotspots>
+<!-- Add areas to avoid here -->
+	<Blackspots>
+		<!--<Blackspot X="367.1612" Y="-699.0712" Z="220.4356" Radius="17.2244" Height="14.49007" />-->
+	</Blackspots>
+    </GrindArea>
+<!-- Add mobs to avoid here -->
+	<AvoidMobs> 
+	<!--<Mob Name="Thieving Plainshawk" Entry="56034"/>
+	<Mob Name="Monstrous Plainshawk" Entry="59641"/>-->
+	</AvoidMobs>
+</HBProfile>
